@@ -1,0 +1,25 @@
+# Virtual environments
+.env/
+.venv/
+
+# Python
+__pycache__/
+*.pyc
+
+# Local agent tooling (symlinks into .venv)
+.claude/
+.agents/
+
+# macOS
+.DS_Store
+
+# Streamlit secrets
+.streamlit/secrets.toml
+
+# Streamlit Community Cloud reads uv.lock before requirements.txt, and this
+# lockfile targets Python 3.14 with pre-release TensorFlow. Keep it local so
+# the cloud build uses requirements.txt.
+uv.lock
+
+# Old pip freeze with an absolute local path; replaced by requirements.txt
+reqruiments.txt
