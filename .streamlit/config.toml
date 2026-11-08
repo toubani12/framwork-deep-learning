@@ -1,0 +1,20 @@
+[theme]
+base = "light"
+primaryColor = "#A32A5F"
+backgroundColor = "#FDEAF1"
+secondaryBackgroundColor = "#FAD7E4"
+textColor = "#4A1730"
+borderColor = "#F3C3D6"
+linkColor = "#A32A5F"
+font = "Inter:https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap"
+headingFont = "'Playfair Display':https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500;600;700;800&display=swap"
+baseRadius = "1rem"
+buttonRadius = "full"
+showWidgetBorder = true
+metricValueFontSize = "2.25rem"
+metricValueFontWeight = 700
+paddingTop = "0.75rem"
+paddingBottom = "2rem"
+
+[client]
+toolbarMode = "minimal"
